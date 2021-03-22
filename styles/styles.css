@@ -1,0 +1,62 @@
+nav
+{  
+    background-color: lightgray;
+}
+nav ul
+{
+   text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: lightgray;
+    display:inline;
+}
+
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+
+nav
+{
+    
+}
+.anchorLarge {
+    color: chartreuse;
+    font-size: 70%;
+    padding: 70%;
+}
+header
+{
+    background-color: lightgreen;
+}
+h1
+{
+    color: black;
+}
+#mainText
+{
+    color:black;
+    font-family: arial;
+    text-align:left;
+}
+body
+{
+    background-color: lightgreen;
+}
+footer
+{
+    clear:float
+    text-align:bottom;
+    background-color: lightgray;
+}
+.fullwidthContent
+{
+    
+    height:50%;
+    width=40%;
+}
