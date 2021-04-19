@@ -1,37 +1,45 @@
-nav
-{  
-    background-color: lightgray;
-}
+
 nav ul
 {
    text-align: center;
-    font-size: 1.2em;
+   font-size: 1.2em;
+   
 }
 
 nav ul li
 {
-    list-style-type: none;
-    background-color: lightgray;
-    display:inline;
+    
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid black;
+    display: inline;
 }
-
 nav ul li a
 {
-    color: black;
+   
+    
     text-decoration: none;
 }
 
-nav
+
+
+.col 
 {
+    column-count: 2;
+    column-rule: 1px solid black;
+    column-gap: normal;
     
 }
 .anchorLarge {
     color: chartreuse;
+    font-family: sans-serif;
     font-size: 70%;
     padding: 70%;
 }
 header
 {
+   
     background-color: lightgreen;
 }
 h1
@@ -40,23 +48,64 @@ h1
 }
 #mainText
 {
+    font-size:100% ;
+    width: 50%;
+    margin-right: 10%;
+    text-align: left;
     color:black;
-    font-family: arial;
+    font-family: sans-serif;
     text-align:left;
 }
+
 body
 {
-    background-color: lightgreen;
+   
+    width: 98%;
+    margin-left: 2%;
+    
+
+}
+p{
+    background: lightgreen;
+}
+
+aside
+{
+    width: 15%;
+    margin-right: 1%;
+    float: right;
+    text-align: center;
+    background: lightgreen;
+}
+.map
+{
+    float: left;
 }
 footer
 {
-    clear:float
-    text-align:bottom;
-    background-color: lightgray;
-}
-.fullwidthContent
-{
+    clear: both;
+    background: lightgreen;
+    text-decoration: none;
+    text-align: left;
+    float: bottom;
     
-    height:50%;
-    width=40%;
+    
+    
 }
+.asidewidth
+{
+    float:right;
+    height:auto;
+    max-width:100%;
+}
+table{
+    background: lightgreen;
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
+

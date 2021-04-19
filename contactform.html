@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+
+<html lang="en"> <!-- Declare the primary language for the Web page-->
+    <head>
+          <meta charset="utf-8" /> <!--8-bit character encoding capable of encoding all possible characters-->
+          <meta name="description" content="Contact Us Form">
+          <meta name="keywords" content="Xbox,Microsoft,History, games console, contact us"> 
+          <link rel="icon" type="image/ico" href="images/favicon.ico">
+          
+        <title>Contact Us</title>
+        
+        <style>
+        label
+{
+    float:left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+#button #reset {
+    margin-top: .5em;
+    width: 8em;
+    background-color: orange;
+    border: 2px solid black;
+}
+input[type="checkbox"] {width: 15px;}
+
+#button{
+    margin-left: 138px
+}
+#reset {
+    margin-left: 82px;
+}
+
+input[type="radio"] {width: 10px;}
+
+.required {
+    font-weight:bold;
+    color:red;
+}
+
+header
+{
+   
+    background-color: lightgreen;
+}
+body{
+   
+    background-image: url(../Xbox/images/xbox-building.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    border: black solid 1px;
+    background: white;
+    min-height: 500px;
+}
+nav ul
+{
+   text-align: center;
+   font-size: 1.2em;
+   
+}
+
+nav ul li
+{
+    background-color: lightgreen;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid black;
+    display: inline;
+}
+ul li a
+{
+   
+    
+    text-decoration: none;
+}
+            footer{
+                background: lightgreen;
+            }
+            footer a{
+                text-decoration: none;
+            }
+        </style>
+
+    </head>
+    
+    <body><!-- Body Tag Start of Body Section Desplay on screen -->
+        
+        <header>
+            
+            <img style="float:left; width: 5%; height:60px;" src="images/xbox-logo.png" alt="Logo">
+            <h1>Contact Us</h1>   
+            <nav>
+            
+                <ul>
+                    <li> <a href="index.html">Xbox </a> </li> 
+                    <li> <a href="firstxbox.html">First Xbox </a> </li>
+                    <li> <a href="xbox360.html">Xbox 360</a> </li>
+                    <li> <a href="xboxone.html">Xbox One</a> </li> 
+                    <li> <a href="contactform.html">Contact Us</a></li>
+                    
+                    
+                </ul>
+                <!-- Navigation to other pages -->
+               
+            </nav>
+        </header>
+        <main> <!-- Main wrapper tag that goes around your main content -->
+         
+        <section>
+            <h3>Please enter the following information</h3>
+            <form action="http://foo.com" method="get">
+            
+            <label for="first_name">First name: <span class="required">*</span></label>
+            <input type="text" name="first_name" id="first_name" autofocus required><br>
+            <label for="last_name">Last name: <span class="required">*</span></label>
+            <input type="text" name="last_name" id="last_name" required><br>
+            <label for="email">Email: <span class="required">*</span></label>
+            <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+            
+            <label for="gender">Gender :</label>
+                <input type="radio" id="gender" name="gender" value="male">Male
+                <input type="radio" id="gender" name="gender" value="female">Female
+                <input type="radio" id="gender" name="gender" value="other" checked>Other <br>
+            <label for="internet"> Heard of us :</label>
+            <fieldset>
+            <input type="checkbox" id="hear" name="internet" value="internet" checked > Internet<br>
+            <input type="checkbox" class="marginl" id="hear" name="paper" value="paper" > Newspaper<br>
+            <input type="checkbox" class="marginl" id="hear" name="friend" value="friend" > Friend<br>
+            <input type="checkbox" class="marginl" id="hear" name="add" value="add" > Others<br>
+            </fieldset>
+            <br>
+                
+            <label for="message">Query :</label>
+            <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea>
+            <input type="submit" name="submit" id="button" value="submit">
+            <input type="reset" name="reset" id="reset">
+            </form>
+            </section>
+                                                                                  
+            
+           
+        </main>
+        <footer> 
+            <p>Copyright &copy; 2020</p>
+            <ul>
+                <li> <a href="index.html">Xbox </a> </li> 
+                <li> <a href="firstxbox.html">First Xbox </a> </li>
+                <li> <a href="xbox360.html">Xbox 360</a> </li>
+                <li> <a href="xboxone.html">Xbox One</a> </li> 
+                <li> <a href="contactform.html">Contact Us</a></li>
+            </ul>
+        </footer>
+    
+    </body>
+    </html>
